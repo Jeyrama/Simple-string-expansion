@@ -42,3 +42,7 @@ function stringExpansion(s) {
 }
 
 // or
+
+function stringExpansion(s) {
+  return s.replace(/\d\D*/g,m=>m.slice(1).replace(/./g,n=>n.repeat(m[0])))
+}
