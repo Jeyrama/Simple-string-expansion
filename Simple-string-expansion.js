@@ -40,3 +40,5 @@ function stringExpansion(s) {
   }
   return newArr.join('')
 }
+
+// or
