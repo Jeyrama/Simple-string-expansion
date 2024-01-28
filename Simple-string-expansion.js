@@ -22,3 +22,6 @@ Examples:
   "1111"      -->  ""                # no characters to repeat
   ""          -->  ""                # empty string
 */
+
+
+// Solution
