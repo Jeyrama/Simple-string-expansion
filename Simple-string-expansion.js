@@ -26,3 +26,17 @@ Examples:
 
 // Solution
 
+function stringExpansion(s) {
+  let arr = s.split('')
+  let newArr = []
+  let multiplier = 1
+  for (i=0; i < arr.length; i++){
+    if(arr[i] % 1 == 0){
+      multiplier = parseInt(arr[i])
+    }
+    else if (arr[i] % 1 != 0){
+      newArr.push(arr[i].repeat(multiplier)) 
+    }
+  }
+  return newArr.join('')
+}
